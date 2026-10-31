@@ -1,0 +1,15 @@
+# conda env create -f environment.yml && conda activate pigeonpea-vc
+# Versions are the ones the pipeline was tested with.
+name: pigeonpea-vc
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - fastqc=0.12.1
+  - trimmomatic=0.39
+  - bwa=0.7.17
+  - samtools=1.19.2
+  - gatk4=4.6.1.0
+  - python=3.11      # test-data scripts
+  - wgsim            # test-data simulation
+  - sra-tools        # optional: download public runs with fasterq-dump

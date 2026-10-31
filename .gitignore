@@ -1,0 +1,38 @@
+# ---- sequencing data and references (never commit) ----
+raw_fastq/
+reference/
+adapters/
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.fa
+*.fasta
+*.fa.fai
+*.dict
+*.amb
+*.ann
+*.bwt
+*.pac
+*.sa
+
+# ---- pipeline outputs ----
+results/
+test/results/
+test/data/
+*.sam
+*.bam
+*.bai
+*.cram
+*.vcf
+*.vcf.gz
+*.tbi
+*.g.vcf.gz
+
+# ---- tools that cannot be redistributed ----
+annovar/
+
+# ---- system files ----
+.DS_Store
+*.log
+__pycache__/
